@@ -1,4 +1,4 @@
-# Salesforce Resources and Wiki
+# Salesforce Resources and [Wiki](https://github.com/bethanysciences/salesforce/wiki)
 
 Open source repositories covering a broad array of technology and marketing projects and content.
 
