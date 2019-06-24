@@ -1,13 +1,3 @@
-#%% Change working directory from the workspace root to the ipynb file location. Turn this addition off with the DataScience.changeDirOnImportExport setting
-# ms-python.python added
-import os
-try:
-	os.chdir(os.path.join(os.getcwd(), '../jupyter'))
-	print(os.getcwd())
-except:
-	pass
-
-#%%
 # ----------------------------------------------------------------------------- #
 # Match Pardot campaign results to new related leads or opportunities           #
 #     1) match engaged 18-digit contact IDs to related account opportunities    #
@@ -121,6 +111,3 @@ records = [dict(
 
 df_lead = pd.DataFrame(records)                   # output results as dataframe
 df_lead.to_csv(excel_path + 'p_lead.csv')         # convert dataframe to csv file
-
-
-#%%
